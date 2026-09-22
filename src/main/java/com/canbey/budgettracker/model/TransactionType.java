@@ -1,4 +1,6 @@
 package com.canbey.budgettracker.model;
 
-public class TransactionType {
+public enum TransactionType {
+    INCOME,
+    EXPENSE
 }
